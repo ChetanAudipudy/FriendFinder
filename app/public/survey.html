@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+    <title>Friend Finder - Survey</title>
+</head>
+<body>
+    <div class="container" style="width:1000px">
+    <div class="card-body text-white bg-dark">
+    <h3>Name (required)</h3>
+      <input type="text" id="inputName" class="form-control" required="">
+
+    <h3>Link to Photo (required)</h3>
+      <input type="text" id="inputImage" class="form-control" required=""> 
+
+    <hr>
+
+    <h3>Question 1</h3>
+    <h6>Your mind is always buzzing with unexplored ideas and plans.</h6>
+
+    <div class="form-group">
+        <select class="form-control" style="width:auto" id="q1">
+          <!-- <option selected disabled>Choose here</option> -->
+          <option value="1">1 (Strongly disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly agree)</option>
+        </select>
+    </div>
+
+
+    <h3>Question 2</h3>
+    <h6>Generally speaking, you rely more on your experience than your imagination.</h6>
+
+    <div class="form-group">
+        <select class="form-control" style="width:auto" id="q2">
+          <!-- <option selected disabled>Choose here</option> -->
+          <option value="1">1 (Strongly disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly agree)</option>
+        </select>
+    </div>
+
+
+    <h3>Question 3</h3>
+    <h6>You find it easy to stay relaxed and focused even when there is some pressure.</h6>
+
+    <div class="form-group">
+        <select class="form-control" style="width:auto" id="q3">
+          <!-- <option selected disabled>Choose here</option> -->
+          <option value="1">1 (Strongly disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly agree)</option>
+        </select>
+    </div>
+
+
+    <h3>Question 4</h3>
+    <h6>You rarely do something just out of sheer curiosity.</h6>
+
+    <div class="form-group">
+        <select class="form-control" style="width:auto" id="q4">
+          <!-- <option selected disabled>Choose here</option> -->
+          <option value="1">1 (Strongly disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly agree)</option>
+        </select>
+    </div>
+
+
+    <h3>Question 5</h3>
+    <h6>People can rarely upset you.</h6>
+
+    <div class="form-group">
+        <select class="form-control" style="width:auto" id="q5">
+          <!-- <option selected disabled>Choose here</option> -->
+          <option value="1">1 (Strongly disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly agree)</option>
+        </select>
+    </div>
+
+
+    <h3>Question 6</h3>
+    <h6>It is often difficult for you to relate to other people’s feelings.</h6>
+
+    <div class="form-group">
+        <select class="form-control" style="width:auto" id="q6">
+          <!-- <option selected disabled>Choose here</option> -->
+          <option value="1">1 (Strongly disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly agree)</option>
+        </select>
+    </div>
+
+
+    <h3>Question 7</h3>
+    <h6>In a discussion, truth should be more important than people’s sensitivities.</h6>
+
+    <div class="form-group">
+        <select class="form-control" style="width:auto" id="q7">
+          <!-- <option selected disabled>Choose here</option> -->
+          <option value="1">1 (Strongly disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly agree)</option>
+        </select>
+    </div>
+
+
+    <h3>Question 8</h3>
+    <h6>You rarely get carried away by fantasies and ideas.</h6>
+
+    <div class="form-group">
+        <select class="form-control" style="width:auto" id="q8">
+          <!-- <option selected disabled>Choose here</option> -->
+          <option value="1">1 (Strongly disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly agree)</option>
+        </select>
+    </div>
+
+
+    <h3>Question 9</h3>
+    <h6>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h6>
+
+    <div class="form-group">
+        <select class="form-control" style="width:auto" id="q9">
+          <!-- <option selected disabled>Choose here</option> -->
+          <option value="1">1 (Strongly disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly agree)</option>
+        </select>
+    </div>
+
+
+    <h3>Question 10</h3>
+    <h6>You feel more energetic after spending time with a group of people.</h6>
+
+    <div class="form-group">
+        <select class="form-control" style="width:auto" id="q10">
+          <!-- <option selected disabled>Choose here</option> -->
+          <option value="1">1 (Strongly disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly agree)</option>
+        </select>
+    </div>
+
+    <hr>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1" method="POST" id="submitButton">
+        Check your match.
+      </button>
+
+    <hr>
+</div>
+</div>
+
+<!-- Modal code here -->
+
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content container">
+        <div class="modal-header">
+          <h2>Your match is: </h2>
+        </div>
+        <hr>
+        <h5 class="modal-title" id="mTitle"></h5>
+        <hr>
+        <img class="modal-body" id="mImage" style="width:300px">
+        </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript">
+
+        
+    $('#submitButton').on('click', function(event) {
+			event.preventDefault();
+			// Gather user inputs
+			var userInput = {
+				"name": $('#inputName').val().trim(),
+				"photo": $('#inputImage').val().trim(),
+				"scores":[
+					$('#q1').val().trim(),
+					$('#q2').val().trim(),
+					$('#q3').val().trim(),
+					$('#q4').val().trim(),
+					$('#q5').val().trim(),
+					$('#q6').val().trim(),
+					$('#q7').val().trim(),
+					$('#q8').val().trim(),
+					$('#q9').val().trim(),
+					$('#q10').val().trim()
+				]
+			};
+			
+            $.post('/api/survey', userInput , function(data) {
+
+                $('#mTitle').html(data.name);
+		    	$("#mImage").attr("src", data.photo);
+	  			$('#modal1').modal('toggle');
+               
+            });
+		});
+
+
+
+</script>
+
+</body>
+</html>
